@@ -2,7 +2,7 @@ FROM tianon/exim4
 
 ENV DOMAIN example.org
 
-COPY entrypoint.sh /usr/local/bin/
+# COPY entrypoint.sh /usr/local/bin/
 
 COPY conf.d/* /etc/exim4/conf.d/
 
